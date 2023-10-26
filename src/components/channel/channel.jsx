@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react'
-import { useParams } from 'react-router-dom'
-import { Box, Container } from '@mui/material'
 import { ApiService } from '../../service/api.service'
+import { useParams } from 'react-router-dom'
+import { useEffect, useState } from 'react'
 import { ChannelCard, Videos } from '../'
+import { Box, Container } from '@mui/material'
 
 const Channel = () => {
 	const [channelDetail, setChannelDetail] = useState()

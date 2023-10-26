@@ -1,19 +1,17 @@
 import {
-  Checkroom,
-  DeveloperMode,
-  FaceRetouchingNatural,
   FitnessCenter,
+  Checkroom,
   GraphicEq,
+  OndemandVideo,
+  DeveloperMode,
   Home,
+  FaceRetouchingNatural,
   LiveTv,
   MusicNote,
-  OndemandVideo,
+  TheaterComedy,
   School,
   SportsEsports,
-  TheaterComedy,
 } from "@mui/icons-material";
-
-export const logo = "./pngwing.png";
 
 export const category = [
   { name: "New", icon: <Home /> },
@@ -30,3 +28,5 @@ export const category = [
   { name: "Beauty", icon: <FaceRetouchingNatural /> },
   { name: "Music", icon: <MusicNote /> },
 ];
+export const logo = "./pngwing.png";
+
